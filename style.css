@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+body{
+    background-image: url(./images/Background.jpg);
+}
+.small{
+    color: darkgoldenrod;
+    font-size: larger;
+    align-content: center;
+    margin-left: 100px !important;
+}
+.container h1{
+    font-weight: 700 !important;
+    font-size: 60px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    background: orangered !important;
+    margin-top: 50px;
+}
+.img1{
+    position: relative;
+    width: 100%;
+}
+.img2{
+    position: absolute;
+    align-self: flex-end;
+    
+}
+.toma{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+.sec{
+    justify-content: flex-start;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 991.98px) { 
+    .container{
+        margin-top: 0px;
+    }
+    .btn{
+        margin-bottom: 50px;
+    }
+    .main{
+        margin-top: -35px !important;
+    }
+    .navs{
+        margin-top: 20px;
+    }
+    .img2{
+        height: 150px;
+        width: 150px;
+    }
+
+}
+
+
+
+
+@media (max-width: 339px) { 
+    
+    .navs img{
+display: none;
+    }
+
+}
+
+
+
+
+
+
+
+/* .animate-grocery{
+    overflow-x: hidden;
+}
+
+#grocery {
+    width: 170px;
+    position: relative;
+    animation-name: grocery;
+    animation-duration: 60s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes grocery {
+    0% {
+        filter: drop-shadow(0.5px 0.5px 1px rgb(242, 237, 140));
+        left: 0px;
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: translateX(calc(100vw - 160px));
+    }
+    50.01% {
+        transform: translateX(calc(100vw - 160px)) rotateY(180deg);
+    }
+    100% {
+        left: 0px;
+        transform: translateX(0) rotateY(180deg);
+        filter: drop-shadow(0.5px 0.5px 1px rgb(242, 237, 140));
+    }
+} */
