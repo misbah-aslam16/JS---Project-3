@@ -1,45 +1,73 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #fff;
 }
-body{
+
+body {
     background-image: url(./images/Background.jpg);
 }
-.small{
+
+.small {
     color: darkgoldenrod;
     font-size: larger;
     align-content: center;
     margin-left: 100px !important;
 }
-.container h1{
+
+.one h1 {
     font-weight: 700 !important;
     font-size: 60px !important;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.btn{
+
+.btn {
     background: orangered !important;
     margin-top: 50px;
 }
-.img1{
+
+.img1 {
     position: relative;
     width: 100%;
 }
-.img2{
+
+.img2 {
     position: absolute;
     align-self: flex-end;
-    
 }
-.toma{
+
+.toma {
     display: flex;
     justify-content: flex-end;
     align-self: center;
 }
-.sec{
+
+.sec {
     justify-content: flex-start;
-    
+}
+
+.two{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+}
+.img4 {
+    /* justify-content: flex-end !important; */
+    /* align-self: flex-end !important; */
+}
+.shadow{
+     
+        width: 100px; /* Set a specific width */
+        height: 100px; /* Set the height equal to the width */
+        border-radius: 50%; /* Makes the element a circle */
+        box-shadow: rgba(233, 17, 17, 0.2) 0px 8px 24px, rgba(236, 4, 4, 0.4) 0px 16px 56px, rgba(230, 4, 4, 0.3) 0px 24px 80px;
+    background-color: transparent;
+}
+.two marquee{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    fo
 }
 
 
@@ -50,23 +78,23 @@ body{
 
 
 
+@media (min-width: 320px) and (max-width: 991.98px) {
 
-@media (min-width: 320px) and (max-width: 991.98px) { 
-    .container{
-        margin-top: 0px;
-    }
-    .btn{
+    .btn {
         margin-bottom: 50px;
     }
-    .main{
+
+    .main {
         margin-top: -35px !important;
     }
-    .navs{
+
+    .navs {
         margin-top: 20px;
     }
-    .img2{
-        height: 150px;
-        width: 150px;
+
+    .img2 {
+        height: 200px;
+        width: 200px;
     }
 
 }
@@ -74,12 +102,15 @@ body{
 
 
 
-@media (max-width: 339px) { 
-    
-    .navs img{
-display: none;
-    }
+@media (max-width: 375px) {
 
+    .navs img {
+        display: none;
+    }
+    .img2 {
+        height: 160px;
+        width: 160px;
+    }
 }
 
 
