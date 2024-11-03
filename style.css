@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
 }
 
 body {
@@ -19,8 +18,13 @@ body {
 .one h1 {
     font-weight: 700 !important;
     font-size: 60px !important;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
+    color: #fff;
+}
+
+.one h6{
+    color: #fff;
 }
 
 .btn {
@@ -48,27 +52,47 @@ body {
     justify-content: flex-start;
 }
 
-.two{
+.two {
     background-color: #fff;
-    height: 100vh;
-    width: 100%;
 }
-.img4 {
-    /* justify-content: flex-end !important; */
-    /* align-self: flex-end !important; */
+
+.three {
+    background-color: #fff;
 }
-.shadow{
-     
-        width: 100px; /* Set a specific width */
-        height: 100px; /* Set the height equal to the width */
-        border-radius: 50%; /* Makes the element a circle */
-        box-shadow: rgba(233, 17, 17, 0.2) 0px 8px 24px, rgba(236, 4, 4, 0.4) 0px 16px 56px, rgba(230, 4, 4, 0.3) 0px 24px 80px;
+
+.shadow {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: rgba(233, 17, 17, 0.2) 0px 8px 24px, rgba(236, 4, 4, 0.4) 0px 16px 56px, rgba(230, 4, 4, 0.3) 0px 24px 80px;
     background-color: transparent;
 }
-.two marquee{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    fo
+
+.two marquee {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color: #dfdbdb !important;
 }
+.ssectwo h6{
+    color: orangered;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ssectwo h1{
+    font-weight: 700;
+}
+.ssectwo p{
+    color: grey;
+}
+.btn1 {
+    background: rgb(245, 181, 62) !important;
+    margin-top: 50px;
+}
+
+
 
 
 
@@ -107,6 +131,7 @@ body {
     .navs img {
         display: none;
     }
+
     .img2 {
         height: 160px;
         width: 160px;
