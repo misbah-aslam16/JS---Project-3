@@ -16,8 +16,8 @@ body {
 }
 
 .one h1 {
-    font-weight: 700 !important;
-    font-size: 60px !important;
+    font-size: 50px;
+    font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
     color: #fff;
@@ -58,12 +58,16 @@ body {
 
 .three {
     background-color: #fff;
-}
 
+}
+.img4{
+    height: 45vh;
+    width: 70%;
+}
 .shadow {
 
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     box-shadow: rgba(233, 17, 17, 0.2) 0px 8px 24px, rgba(236, 4, 4, 0.4) 0px 16px 56px, rgba(230, 4, 4, 0.3) 0px 24px 80px;
     background-color: transparent;
@@ -78,7 +82,7 @@ body {
 .ssectwo h6{
     color: orangered;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 50px;
 }
 .ssectwo h1{
@@ -88,15 +92,46 @@ body {
     color: grey;
 }
 .btn1 {
-    background: rgb(245, 181, 62) !important;
+    background-color: chocolate !important; 
+    border: 2px solid #000;
+    height: 50px;
+    padding: 10px 10px 10px 10px !important;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+.special h1{
+    color:rgb(212, 209, 27);
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 100px;
+}
+.special h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+.special p{
+    color: #fff;
+    margin-bottom: 40px;
     margin-top: 50px;
 }
+.special h3{
+    color: chocolate;
+    margin-top: 40px;
+}
+.special img{
+    margin-top: 100px;
+}
 
-
-
-
-
-
+/* .grill{
+    background-color: #fff;
+} */
+.blog{
+    background-color: #fff;
+    justify-content: center;
+}
 
 
 
