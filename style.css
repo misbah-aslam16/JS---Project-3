@@ -132,6 +132,51 @@ body {
     background-color: #fff;
     justify-content: center;
 }
+.btn2{
+    background-color: chocolate !important; 
+    border: 2px solid #000;
+    height: 50px;
+    padding: 10px 10px 10px 10px !important;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
+.last{
+    color: #fff;
+    background: transparent;
+}
+.fb{
+    width: 26px;
+    opacity: 1;
+    text-decoration: none;
+}
+.ytb,.twit{
+    width: 30px;
+    opacity: 1;
+    text-decoration: none;
+}
+.insta{
+    width: 35px;
+    opacity: 1;
+    text-decoration: none;
+ }
+ #lastInp{
+    padding: 6px !important;
+    border-radius: 9px !important;
+    border: none;
+    margin-bottom: 5px;
+}
+#lastbtn{
+    color: black;
+    background-color: chocolate !important;
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+    border-radius: 13px !important;
+margin-top: 0%;
+}
 
 
 
