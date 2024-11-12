@@ -12,29 +12,32 @@ body {
     color: darkgoldenrod;
     font-size: larger;
     align-content: center;
-    margin-left: 100px !important;
+    margin-left: 4rem !important;
 }
 
 .one h1 {
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
     color: #fff;
+    margin-left: 5rem;
 }
 
 .one h6{
     color: #fff;
+    margin-left: 5rem;
 }
 
 .btn {
     background: orangered !important;
     margin-top: 50px;
+    margin-left: 5rem;
 }
 
 .img1 {
     position: relative;
-    width: 100%;
+    width: 90%;
 }
 
 .img2 {
@@ -61,8 +64,16 @@ body {
 
 }
 .img4{
-    height: 45vh;
-    width: 70%;
+    height: 50vh;
+    width: 90%;
+    position: relative;
+    
+}
+
+.img5 {
+    position: absolute;
+    align-self: flex-end;
+
 }
 .shadow {
 
@@ -72,7 +83,10 @@ body {
     box-shadow: rgba(233, 17, 17, 0.2) 0px 8px 24px, rgba(236, 4, 4, 0.4) 0px 16px 56px, rgba(230, 4, 4, 0.3) 0px 24px 80px;
     background-color: transparent;
 }
-
+.main{
+    align-content: start;
+    
+}
 .two marquee {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
@@ -82,8 +96,8 @@ body {
 .ssectwo h6{
     color: orangered;
     font-weight: 700;
-    margin-top: 70px;
-    margin-bottom: 50px;
+    margin-top: 1rem auto;
+    margin-bottom: 2rem;
 }
 .ssectwo h1{
     font-weight: 700;
@@ -105,25 +119,42 @@ body {
     color:rgb(212, 209, 27);
     font-size: 50px;
     font-style: italic;
-    margin-top: 100px;
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 .special h2{
     color: #fff;
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 700;
+    margin-left: 2rem;
 }
 .special p{
     color: #fff;
     margin-bottom: 40px;
     margin-top: 50px;
+    margin-left: 2rem;
 }
 .special h3{
     color: chocolate;
     margin-top: 40px;
+    margin-left: 2rem;
 }
-.special img{
+.special button{
+    margin-left: 2rem;
+}
+.img6 {
+    position: relative;
+    width: 100%;
+}
+
+.img7 {
+    position: absolute;
+    align-self: flex-end;
+}
+
+/* .special img{
     margin-top: 100px;
-}
+} */
 
 /* .grill{
     background-color: #fff;
@@ -200,7 +231,26 @@ margin-top: 0%;
         height: 200px;
         width: 200px;
     }
-
+    .one h1 {
+        margin-left: 1rem;
+        font-size: 2rem
+    }
+    .one h6{
+        margin-left: 1rem;
+    } 
+    .btn{
+margin-left: 1rem;
+    }
+    .img4{
+        height: 35vh;
+        width: 70%;
+        position: relative
+    }
+    .img5{
+        height: 10rem;
+        width: 10rem;
+       
+    }
 }
 
 
@@ -215,6 +265,11 @@ margin-top: 0%;
     .img2 {
         height: 160px;
         width: 160px;
+    }
+    .img5{
+        height: 5rem;
+        width: 5rem;
+        
     }
 }
 
